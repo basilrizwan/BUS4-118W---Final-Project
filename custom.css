@@ -33,6 +33,11 @@
 }
 
 
+section .col-md-3 {
+  
+  margin-left: 20em;
+  margin-bottom: 20em;
+}
 
 
 /*
