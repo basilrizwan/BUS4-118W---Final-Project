@@ -6,6 +6,39 @@
 
 
 /*
+ * Buttons & Links
+ * 
+ */
+
+.btn-outline {
+  color: #F20000;
+  border-color: #F20000;
+}
+.btn-outline:hover {
+  color: #fff;
+  background-color: #F20000;
+  border-color: #F20000;
+}
+
+.btn-fill {
+  color: #fff;
+  background-color: #F20000;
+  border-color: #F20000;
+}
+.btn-fill:hover {
+  color: #fff;
+  background-color: #AB0000;
+  border-color: #AB0000;
+}
+
+.link {
+  color: #F20000;
+}
+.link:hover, .link:focus {
+  color: #AB0000;
+}
+
+/*
  * Carousel
  * 
  */
@@ -116,7 +149,6 @@ h1, h2, h3, h4, h5, h6 {
  */
 .blog-footer {
   padding: 2.5rem 0;
-  color: #727272;
   text-align: center;
   background-color: #f9f9f9;
   border-top: .05rem solid #e5e5e5;
