@@ -178,6 +178,68 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
+
+/*
+ * Gallery
+ */
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #F20000;
+    border-radius: 5px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #AB0000;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #AB0000;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
 /*
  * Footer
  */
