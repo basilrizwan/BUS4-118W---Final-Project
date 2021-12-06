@@ -12,106 +12,105 @@
 
 
     <!-- Custom styles for this template -->
-    <link href="bootstrap.css" rel="stylesheet">
-    <link href="custom.css" rel="stylesheet">
+    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
   </head>
   <body>
     <a name="top"></a>
     <!-- Header -->
     <div class="container">
       <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-        <a href="FAQS.html" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 link text-decoration-none">
+        <a href="index.html" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 link text-decoration-none">
           ABC Publishing
         </a>
 
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="#" class="nav-link px-2 link">Home</a></li>
-          <li><a href="#" class="nav-link px-2 link-dark">Features</a></li>
-          <li><a href="#" class="nav-link px-2 link-dark">Pricing</a></li>
-          <li><a href="ContactUs.html" class="nav-link px-2 link-dark">Contact Us</a></li>
-          <li><a href="#" class="nav-link px-2 link-dark">About</a></li>
+          <li><a href="index.html" class="nav-link px-2 link-dark">Home</a></li>
+          <li><a href="about.html" class="nav-link px-2 link-dark">About</a></li>
+          <li><a href="authors.html" class="nav-link px-2 link-dark">Authors</a></li>
+          <li><a href="books.html" class="nav-link px-2 link-dark">Books</a></li>
+          <li><a href="contact.html" class="nav-link px-2 link">Contact</a></li>
         </ul>
 
         <div class="col-md-3 text-end">
-          <button type="button" class="btn btn-outline me-2">Login</button>
-          <button type="button" class="btn btn-fill">Sign-up</button>
+          <button type="button" class="btn btn-outline me-2">Checkout</button>
+          <button type="button" class="btn btn-fill">Login</button>
         </div>
       </header>
     </div>
     <!-- End Header -->
- 
-    <!-- FAQS -->
-    <div class="center">
-        <style>
-            .square {
-              background-color: rgb(206, 206, 206);
-              color: black;
-              margin: 20px;
-              padding: 20px;
-              
-              
-            }
-            </style>
-        <h1 class="fw-light text-center">FAQS</h1>
-        <div class="square">
-            <center>
-            <h4>Forgot your password?</h4>
-            <p>Reach out to us on the contact page</p>
-            <h4>Have questions about authors?</h4>
-            <p>Visit the About page.</p>
-            <h4>What is an ISBN?</h4>
-            <p>An International Standard Book Number is a numeric code to identify a book</p>
-            <h4>WHat is copyright? Do I need to copyright my book?
-            </h4>
-            <p>The exclusive legal right, given to an originator or an assignee to print or publish literature</p>
-            </center>
 
+    <!-- FAQ -->
+    <div class="container">
+      <h1 class="fw-light text-center">FAQs</h1>
+      <br><br>
+    <div class="row justify-content-center">
+      <div class="col-lg-5">
+          <!--Question -->
+          <div>
+            <p class="mb-1">
+              <strong>Forgot your password?</strong>
+            </p>
+            <p class="mb-1">
+              Please contact us and will will help</p>
+          </div>
+          <!--Question -->
+          <div>
+            <p class="mb-1">
+              <strong>Have questions about our authors?</strong>
+            </p>
+            <p class="mb-1">
+              You can try visiting the About Us page, the Authors page, or you can contact us</p>
+          </div>
+          <!--Question -->
+          <div>
+            <p class="mb-1">
+              <strong>What is an ISBN?</strong>
+            </p>
+            <p class="mb-1">
+              An International Standard Book Number is a numeric code to identify a book.</p>
+          </div>
+          <!--Question -->
+          <div>
+            <p class="mb-1">
+              <strong>What is copyright? Do I need to copyright by book?</strong>
+            </p>
+            <p class="mb-1">
+              The exclusive right, given to the originator or assignee to print or publish literature</p>
+          </div>
+      </div>
+
+        <!--Section: Contact Form-->
+       <div class="col-lg-5" >
+          <p>
+            <span class="fw-bold">
+              Still have any questions? Contact us to get your answer!</span>
+          </p>
+          <form action="" method="POST" class="faq-contact-form">
+
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="form4Example2" class="form-control" name="email" required="">
+              <label class="form-label" for="form4Example2" style="margin-left: 0px;">Email address</label>
+            <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 88px;"></div><div class="form-notch-trailing"></div></div></div>
+
+            <!-- Message input -->
+            <div class="form-outline mb-4">
+              <textarea class="form-control" id="form4Example3" rows="4" name="message" required=""></textarea>
+              <label class="form-label" for="form4Example3" style="margin-left: 0px;">Message</label>
+            <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 60px;"></div><div class="form-notch-trailing"></div></div></div>
+
+            <!-- Submit button -->
+            <input type="submit" class="btn btn-primary btn-block mb-4 faq-contact-form-submit" value="SEND" style="">
+            <input type="hidden" name="recaptcha-response" id="recaptchaFaqForm">
+          </form>
         </div>
-
+      </div>
     </div>
-  
-    <!-- End FAQS -->
+  </div>
+<!-- end faq-->
 
-    <!-- Contact Form -->
-
-   <div class="center">
-        <h1 class="fw-light text-center">Contact Form</h1>
-        <style>
-            .contactForm {
-              background-color: rgb(206, 206, 206);
-              color: black;
-              margin: 20px;
-              padding: 20px;
-              
-            }
-            </style>
-        <h1 class="fw-light text-center"></h1>
-        <div class="square">
-            <div class="form">
-                <form action = "Contact_redirct.html" method="post" >
-                 <label>Email:</label>
-                     <input type = "email" id = "email"  required size = "30" maxlength= "30">
-                 <label>Name:</label>
-                     <input type = "text" id = "name"  required size = "20" ><br>
-                 <label> Message:</label>
-                     <input type = "text" id = "message"  required size = "100" >
-                     <p><button onclick = "send()">Send</button></p> 
-                </form>
-            </div>
-            
-        </div>
-
-   </div>
-   <script src = "https://gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
-   <script src = "https://gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
-   <script src = "https://gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
-   <script src = "login.js"></script>
-
-<center>
-   <h2><p>Contact us</p></h2>
-   <p>Email: <a href="mailto:hello@abcpublishing.com" target="_blank">hello@abcpublishing.com</a> Cell:408-543-2373</p>
-   <p>Address: 123 ABC lane, CA 95037</p>
-</center>
 
 <!-- Footer -->
 <footer class="text-muted py-5 bg-light">
